@@ -1,13 +1,13 @@
 {
-  "name": "hikblenan-ethiopia-school",
+  "name": "hikblenan-webapp",
   "version": "1.0.0",
-  "description": "Hikblenan Ethiopia School Web App",
-  "main": "server.js",
+  "description": "A web application to help teachers input student results and send them to parents via email.",
+  "main": "node.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node node.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mailjet": "^3.6.0"
+    "express": "^5.0.0",
+    "mailjet": "^2.0.0"
   }
 }
