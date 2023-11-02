@@ -1,0 +1,14 @@
+{
+  "name": "hikblenan",
+  "version": "1.0.0",
+  "description": "Hikblenan Ethiopia School Web App",
+  "main": "node.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mailjet": "^3.6.0" // Assuming this is the Mailjet library version you are using
+    // Add other dependencies your project might require
+  }
+}
