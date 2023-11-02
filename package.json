@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "^4.0.0",
-    "mailjet": "^2.0.0"
+    "mailjet": "^1.0.0"
   },
   "license": "MIT"
 }
