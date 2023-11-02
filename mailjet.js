@@ -12,13 +12,13 @@ function sendEmail(parentEmail, studentName, totalScore, gradeLetter) {
     subject: `Results for ${studentName}`,
     text: `Dear ${parentEmail},
 
-Your child, ${studentName}, has scored a total of ${totalScore} in their recent exams. Their grade is ${gradeLetter}.
+    Your child, ${studentName}, has scored a total of ${totalScore} in their recent exams. Their grade is ${gradeLetter}.
 
-Congratulations to ${studentName} on their hard work!
+    Congratulations to ${studentName} on their hard work!
 
-Sincerely,
-The Teacher
-`
+    Sincerely,
+    The Teacher
+  `
   };
 
   mailjet.post('send', message).then(() => {
