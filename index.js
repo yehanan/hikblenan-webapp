@@ -1,6 +1,7 @@
 const express = require('express');
 const sendEmail = require('./sendEmail');
 
+
 const app = express();
 
 // Define a route to handle requests to send an email
