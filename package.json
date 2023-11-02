@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^5.0.0",
+    "express": "^4.0.0",
     "mailjet": "^2.0.0"
   },
   "license": "MIT"
